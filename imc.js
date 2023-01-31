@@ -1,13 +1,13 @@
-let button = document.querySelector("#calculIMC");
-let inputTaille = document.querySelector("#taille");
-let inputKilogrammes = document.querySelector("#poids");
-let calculationResult = document.querySelector("#imcNumber");
+let button = document.querySelector("#bmi-calculation");
+let inputHeight = document.querySelector("#height");
+let inputWeight = document.querySelector("#weight");
+let calculationResult = document.querySelector("#bmiNumber");
 let resultCategory = document.querySelector("#resultCategory");
-let form = document.querySelector("#mon-form");
+let form = document.querySelector("#bmi-form");
 
 function giveResult() {
-  const taille = inputTaille.value;
-  const poids = inputKilogrammes.value;
+  const height = inputHeight.value;
+  const weight = inputWeight.value;
 
   const valid = form.checkValidity();
 
@@ -18,8 +18,7 @@ function giveResult() {
   }
 
   let result =
-    inputKilogrammes.value /
-    (((inputTaille.value / 100) * inputTaille.value) / 100);
+    inputWeight.value / (((inputHeight.value / 100) * inputHeight.value) / 100);
   calculationResult.innerHTML = `${result.toFixed(1)}`;
 
   if (result <= 24.9) {
