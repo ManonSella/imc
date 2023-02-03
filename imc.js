@@ -21,8 +21,10 @@ function giveResult() {
     inputWeight.value / (((inputHeight.value / 100) * inputHeight.value) / 100);
   calculationResult.innerHTML = `${result.toFixed(1)}`;
 
-  if (result <= 24.9) {
+  if (result <= 18.5) {
     resultCategory.innerHTML = "maigreur";
+  } else if (result >= 18.5 && result >= 24.9) {
+    resultCategory.innerHTML = "bonne santé";
   } else if (result >= 25 && result <= 29.9) {
     resultCategory.innerHTML = "surpoids";
   } else if (result >= 30 && result <= 34.9) {
