@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="device to calculate someone's bmi based on both height and weight"
+      content="device to calculate someone's BMI based on both height (in centimeters) and weight (in kilograms)."
     />
-    <title>IMC</title>
+    <title>BMI ⚖️</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,14 +18,14 @@
   </head>
   <body>
     <div class="container">
-      <h1>Calcul d'<span>IMC</span></h1>
+      <h1><span>BMI Calculator</span></h1>
       <form id="bmi-form" action="#">
         <div class="inputs-container">
           <div class="input-group">
-            <label for="height">Votre taille en centimètres</label>
+            <label for="height">Your height in centimetres</label>
             <input
               type="number"
-              placeholder="Votre taille en centimètres"
+              placeholder="Enter your height in centimetres"
               id="height"
               class="height-input"
               name="height"
@@ -34,10 +34,10 @@
             />
           </div>
           <div class="input-group">
-            <label for="kilogrammes">Votre poids en Kg</label>
+            <label for="kilogrammes">Your weight in Kilograms</label>
             <input
               type="number"
-              placeholder="Votre poids en kg"
+              placeholder="Enter your weight in kilograms"
               id="weight"
               class="weight-input"
               name="weight"
@@ -46,11 +46,11 @@
             />
           </div>
         </div>
-        <button id="bmi-calculation">Calculer un IMC</button>
+        <button id="bmi-calculation">Get your BMI</button>
       </form>
       <div class="info">
         <p id="bmiNumber">0</p>
-        <p id="resultCategory">En attente de résultat...</p>
+        <p id="resultCategory">Calculating your BMI...</p>
       </div>
     </div>
     <script src="imc.js"></script>
