@@ -4,6 +4,10 @@
 This project is a simple JavaScript application that calculates Body Mass Index (BMI) based on user input of height in cm and weight in kg. 
 It provides a way for users to easily determine their BMI and get an indication of their overall health status.
 
+## Preview
+
+![Screenshot 2024-07-26 at 11 14 50](https://github.com/user-attachments/assets/8361a957-ec22-43fb-9118-e4adfdfa7b42)
+
 ## Installation
 1. Download the project files from the GitHub repository: [link to repository](https://github.com/yourusername/bmi-calculator)
 2. Alternatively, you can clone the repository using the following command:
@@ -27,6 +31,4 @@ This BMI was mainly used for the purpose of practising JavaScript.
 Feel free to contribute to this project by submitting pull requests or opening issues. 
 Your feedback and improvements are appreciated!
 
-
-![Screenshot 2024-07-26 at 11 14 50](https://github.com/user-attachments/assets/8361a957-ec22-43fb-9118-e4adfdfa7b42)
 
