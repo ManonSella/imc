@@ -26,5 +26,7 @@ BMI is a useful tool for healthcare professionals to quickly identify health ris
 This BMI was mainly used for the purpose of practising JavaScript. 
 Feel free to contribute to this project by submitting pull requests or opening issues. 
 Your feedback and improvements are appreciated!
+
+
 ![Screenshot 2024-07-26 at 11 14 50](https://github.com/user-attachments/assets/8361a957-ec22-43fb-9118-e4adfdfa7b42)
 
