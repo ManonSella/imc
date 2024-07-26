@@ -13,8 +13,8 @@ It provides a way for users to easily determine their BMI and get an indication 
 1. Open the index.html file in your web browser.
 2. Input your height in meters in the designated field.
 3. Input your weight in kilograms in the designated field.
-4. Press the "Calculate BMI" button to retrieve your BMI value.
-5. The calculated BMI value will be displayed, along with a corresponding health status message.
+4. Press the "Get your BMI" button to retrieve your BMI value.
+5. The calculated BMI value will be displayed.
 
 ## Technologies Used
 - HTML
